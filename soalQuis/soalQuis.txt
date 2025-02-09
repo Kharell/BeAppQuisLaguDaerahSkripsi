@@ -1,0 +1,188 @@
+
+export const Soal = [
+  {
+    no: 1,
+    soal: "Lagu Bungong Jeumpa berasal dari daerah mana?",
+    pilihanJawaban: ["Sumatera Utara", "Aceh", "Riau", "Jambi"],
+    kunciJawaban: "Aceh",
+  },
+  {
+    no: 2,
+    soal: "Apa pesan dalam lagu Soleram?",
+    pilihanJawaban: [
+      "Kebanggaan akan budaya",
+      "Nasihat untuk anak-anak",
+      "Kegembiraan di pernikahan",
+      "Kerinduan terhadap kampung halaman",
+    ],
+    kunciJawaban: "Nasihat untuk anak-anak",
+  },
+  {
+    no: 3,
+    soal: "Lagu Anging Mammiri berasal dari daerah mana?",
+    pilihanJawaban: [
+      "Sulawesi Utara",
+      "Sulawesi Tengah",
+      "Sulawesi Selatan",
+      "Sulawesi Barat",
+    ],
+    kunciJawaban: "Sulawesi Selatan",
+  },
+  {
+    no: 4,
+    soal: "Lagu Manuk Dadali menggambarkan tentang?",
+    pilihanJawaban: [
+      "Kecantikan alam",
+      "Keberanian burung garuda",
+      "Persahabatan",
+      "Kebanggaan budaya",
+    ],
+    kunciJawaban: "Keberanian burung garuda",
+  },
+  {
+    no: 5,
+    soal: "Lagu Gundul-Gundul Pacul dari daerah mana?",
+    pilihanJawaban: [
+      "Jawa Barat",
+      "Jawa Tengah",
+      "DKI Yogyakarta",
+      "Jawa Timur",
+    ],
+    kunciJawaban: "Jawa Tengah",
+  },
+  {
+    no: 6,
+    soal: "Lagu Yamko Rambe Yamko dari daerah mana?",
+    pilihanJawaban: [
+      "Papua",
+      "Sulawesi Selatan",
+      "Gorontalo",
+      "Kalimantan Tengah",
+    ],
+    kunciJawaban: "Papua",
+  },
+  {
+    no: 7,
+    soal: "Apa yang diceritakan dalam lagu Gambang Suling?",
+    pilihanJawaban: ["Alat musik", "Makanan", "Minuman", "Pakaian"],
+    kunciJawaban: "Alat musik",
+  },
+  {
+    no: 8,
+    soal: "Lagu Ratu Anom bercerita tentang siapa?",
+    pilihanJawaban: ["Raja", "Pangeran", "Putri", "Ratu"],
+    kunciJawaban: "Ratu",
+  },
+  {
+    no: 9,
+    soal: "Lagu Injit-Injit Semut dari daerah mana?",
+    pilihanJawaban: ["Jambi", "Bengkulu", "Sumatera Selatan", "Bali"],
+    kunciJawaban: "Jambi",
+  },
+  {
+    no: 10,
+    soal: "Apa yang diceritakan dalam lagu Injit-Injit Semut?",
+    pilihanJawaban: ["Ayam", "Kucing", "Semut", "Burung"],
+    kunciJawaban: "Semut",
+  },
+  {
+    no: 11,
+    soal: "Lagu Suwe Ora Jamu dari daerah mana?",
+    pilihanJawaban: [
+      "DKI Yogyakarta",
+      "Jawa Timur",
+      "Kalimantan Timur",
+      "Bali",
+    ],
+    kunciJawaban: "DKI Yogyakarta",
+  },
+  {
+    no: 12,
+    soal: "Lagu Potong Bebek Angsa dari daerah mana?",
+    pilihanJawaban: [
+      "Kalimantan Barat",
+      "Kalimantan Timur",
+      "Nusa Tenggara Timur",
+      "Kalimantan Utara",
+    ],
+    kunciJawaban: "Nusa Tenggara Timur",
+  },
+  {
+    no: 13,
+    soal: "Lagu Sajojo dari daerah mana?",
+    pilihanJawaban: ["Papua", "Papua Barat", "Maluku", "Maluku Utara"],
+    kunciJawaban: "Papua Barat",
+  },
+  {
+    no: 14,
+    soal: "Lagu Kicir-Kicir dari DKI Jakarta berisi?",
+    pilihanJawaban: [
+      "Nasihat tentang hidup",
+      "Kisah cinta",
+      "Penghormatan kepada orang tua",
+      "Kebanggaan terhadap daerah",
+    ],
+    kunciJawaban: "Nasihat tentang hidup",
+  },
+  {
+    no: 15,
+    soal: "Lagu Potong Bebek Angsa mengajak anak-anak untuk?",
+    pilihanJawaban: [
+      "Bermain di taman",
+      "Berdoa Bersama",
+      "Menjaga lingkungan",
+      "Menari Bersama",
+    ],
+    kunciJawaban: "Menari Bersama",
+  },
+  {
+    no: 16,
+    soal: "Apa pesan dalam lagu Rasa Sayange?",
+    pilihanJawaban: [
+      "Kasih sayang dan kepedulian",
+      "Kekuatan alam",
+      "Kebanggaan daerah",
+      "Persahabatan",
+    ],
+    kunciJawaban: "Kasih sayang dan kepedulian",
+  },
+  {
+    no: 17,
+    soal: "Lagu Ampar-Ampar Pisang dari daerah mana?",
+    pilihanJawaban: [
+      "Kalimantan Barat",
+      "Kalimantan Timur",
+      "Kalimantan Selatan",
+      "Kalimatan Utara",
+    ],
+    kunciJawaban: "Kalimantan Selatan",
+  },
+  {
+    no: 18,
+    soal: "Lagu Dayung Sampan mengisahkan tentang apa?",
+    pilihanJawaban: ["Penari", "Nelayan", "Atlet", "Guru"],
+    kunciJawaban: "Nelayan",
+  },
+  {
+    no: 19,
+    soal: "Lagu Yamko Rambe Yamko menceritakan tentang?",
+    pilihanJawaban: [
+      "Perjuangan masyarakat setempat",
+      "Kebersamaan suku",
+      "Semangat bermain",
+      "Upacara adat",
+    ],
+    kunciJawaban: "Perjuangan masyarakat setempat",
+  },
+  {
+    no: 20,
+    soal: "Cik-Cik Periuk dari daerah mana?",
+    pilihanJawaban: [
+      "Kalimantan Timur",
+      "Kalimantan Barat",
+      "Kalimantan Utara",
+      "Kalimantan Selatan",
+    ],
+    kunciJawaban: "Kalimantan Barat",
+  },
+];
