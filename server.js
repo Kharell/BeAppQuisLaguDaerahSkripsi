@@ -12,19 +12,27 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Koneksi ke database
-connectDB();
+// Menjalankan server hanya jika database berhasil terhubung
+const startServer = async () => {
+  try {
+    await connectDB(); // Tunggu koneksi ke MongoDB selesai
+
+    const PORT = process.env.PORT || 8000;
+    app.listen(PORT, () => {
+      console.log(`✅ Server running on port http://localhost:${PORT}`);
+    });
+  } catch (error) {
+    console.error("❌ Gagal menjalankan server:", error);
+    process.exit(1); // Keluar dari proses jika terjadi error
+  }
+};
+
+startServer(); // Panggil fungsi untuk memulai server
 
 // Rute API
 app.use("/api/users", userRoutes);
 app.use("/api/soal", soalRoutes);
 app.use("/api/nilai", nilaiRoutes);
-
-// Menjalankan server
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () =>
-  console.log(`Server running on port http://localhost:${PORT}`)
-);
 
 // Kode Di bagiian Controller
 // nilai, soal dan user
